@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+.wrapper{
+    background-color: #673ab7;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    width: 17%;
+    box-shadow: 0px 2px 2px 2px grey;
+}
+.sidebar-header{
+    border:none;
+    background-color: #320b86;
+    height: 60px;
+}
+
+.sidebar-header h4{
+    position: relative;
+    top: 15px;
+    text-align: left;
+    color: white;
+
+}
+
+.list-unstyled .li{
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.list-unstyled .li{
+    background-color:#673ab7;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 20px;
+    text-align: left;
+    color:white;
+
+}
+
+
+
+.list-unstyled .li:hover{
+    background-color: #9a67ea;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.list-unstyled .active{
+    background-color: #9a67ea;
+    cursor: pointer;
+    font-weight: bold;
+}
+.list-unstyled .active #student-hiden{
+    max-height: 100px;
+}
+
+.list-unstyled .active #event-hiden{
+   max-height: 100px;
+}
+
+
+#list-first{
+    margin-top: 30px;
+}
+
+.fa-address-card ,.fa-calendar-alt ,.fa-cog{
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+#event-hiden , #student-hiden{
+    list-style: square;
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transition: max-height 1s;
+    -moz-transition: max-height 1s ;
+    -ms-transition: max-height 1s ;
+    -o-transition: max-height 1s ;
+    transition: max-height 1s ;
+}
+
+#event-hiden li:hover , #student-hiden li:hover {
+    font-weight: lighter;
+}

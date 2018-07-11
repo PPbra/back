@@ -1,0 +1,26 @@
+.navbar{
+    background-color: #320B86;
+    position: relative;
+    height: 60px;
+    box-shadow: 0px 2px 2px grey;
+}
+
+#login{
+    position: absolute;
+    right: 0;
+    top: 25%;
+    color: #F5F5F6;
+}
+
+#home{
+    position: absolute;
+    right: 140px;
+    top: 25%;
+    color: #F5F5F6;
+}
+
+#login:hover , #home:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
