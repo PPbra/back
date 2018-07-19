@@ -1,0 +1,63 @@
+.student-item{
+    top: 0;
+    position: relative;
+    left: 17.1111%;
+    margin-bottom: 1px;
+    width: 82.8999999%;
+    background-color: #3949ab;
+    color: #F5F5F6;
+}
+.student-item:hover{
+    background-color: #7986cb;
+    font-weight: bolder;
+}
+.student-item:hover .student-edit{
+    background-color: #7986cb;
+    font-weight: bolder;
+}
+
+
+.student-number,.student-id , .student-name , .student-class , .student-email ,.student-phone ,.student-point {
+    position: absolute;
+}
+.student-number{
+    width: 5%;
+    left: 0;
+}
+ .student-id{
+    width: 10%;
+     left: 5%;
+}
+.student-name {
+    width: 20%;
+    left: 15%;
+}
+
+.student-class{
+    width: 5%;
+    left: 35%;
+}
+
+.student-point{
+    width: 5%;
+    left: 40%;
+}
+
+.student-phone{
+    width: 20%;
+    left: 70%;
+}
+
+.student-email{
+    width: 25%;
+    left: 45%;
+}
+
+.student-edit{
+    position: relative;
+    border: none;
+    background-color:  #3949ab;
+    cursor: pointer;
+    outline: none;
+    left: 90%;
+}

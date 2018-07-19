@@ -1,0 +1,57 @@
+.add-student {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    overflow: visible;
+    height: 1000px;
+    top: 0;
+    z-index: 1;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.add-student .add-student-content{
+    top: 5%;
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    padding: 100px ;
+    background-color:#5C6BC0;
+    border-radius: 6px;
+}
+
+.add-student-content label{
+    display:block;
+}
+
+.add-student-content label>span{
+    float: left;
+    width: 150px;
+}
+
+.add-student-content label input{
+    outline: none;
+    width: 250px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed #83A4C5;
+    overflow: hidden;
+}
+
+
+.list-event ul li{
+    list-style: none;
+}
+
+.list-event ul li span{
+    float: left;
+    width: 300px;
+}
+
+.remove-event-student{
+    background-color: #5C6BC0;
+    border: none;
+    cursor: pointer;
+}

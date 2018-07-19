@@ -1,0 +1,57 @@
+.popup {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    overflow: visible;
+    height: 1000px;
+    top: -1000px;
+    z-index: 1;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.popup .popup-content{
+    top: 5%;
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    padding: 100px ;
+    background-color:#5C6BC0;
+    border-radius: 6px;
+}
+
+.popup-content label{
+    display:block;
+}
+
+.popup-content label>span{
+    float: left;
+    width: 150px;
+}
+
+.popup-content label input{
+    outline: none;
+    width: 250px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed #83A4C5;
+    overflow: hidden;
+}
+
+
+.list-event ul li{
+    list-style: none;
+}
+
+.list-event ul li span{
+    float: left;
+    width: 300px;
+}
+
+.remove-event-student{
+    background-color: #5C6BC0;
+    border: none;
+    cursor: pointer;
+}

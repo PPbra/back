@@ -1,75 +1,40 @@
-*{
-    box-sizing: border-box;
-    font-family: 'Roboto Slab', serif ;
-}
-
-.st-li-container{
-    color: #F5F5F6;
-    background-color: #05abf2;
+.student-menu{
     position: relative;
-    left: 17.1111%;
-    height: 40px;
-    top: 2px;
-}
-.st-li-container:hover{
-    cursor: pointer;
+    left: 17.11111%;
+    width: 82.99999999%;
+    height: 80px;
+    background-color:#9575cd ;
 }
 
-.st-ul-majors{
-    position: relative;
-    top: 25%;
-
+.student-menu .search-menu div{
+    display: inline-block;
 }
 
-.st-li-major:hover{
-    font-weight: bolder;
-    overflow: visible;
-
+.student-menu .search-menu{
+    background-color:#673ab7;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    padding: 10px;
+    border-radius: 4px;
 }
 
- .st-li-major{
-     display: inline-block;
-     margin: 0;
-     margin-right: 10px;
-     height: 50px;
-     left: 0;
-     -webkit-transition: all 1s;
-     -moz-transition: all 1s;
-     -ms-transition: all 1s;
-     -o-transition: all 1s;
-     transition: all 1s;
-     overflow: hidden;
+ .search-menu div select{
+    border: none;
+    outline: none;
+    color: #673ab7;
+     border-radius: 4px;
 }
 
-.st-ul-ks{
-    position: relative;
-    top: 6px;
-    left: 0;
-    padding: 0;
-    margin: 0;
+.student-menu .search-menu .school-year{
+    margin-right: 5px;
+    border-radius: 4px;
 }
- .st-li-k{
-     margin-right: 30px;
-     display: inline-block;
-     background-color: #67DAFF;
+.student-menu .search-menu .falcuty{
+    margin-right: 5px;
+    border-radius: 4px;
 }
- .st-li-k:hover{
-     background-color: #4FC3F7;
- }
-.st-ul-classes{
-    padding: 0;
-    margin: 0;
+.student-menu .search-menu .class{
+    margin-right: 5px;
+    border-radius: 4px;
 }
- .st-li-class{
-     display: block;
-     margin: 0;
-     padding: 0;
-     text-align: center;
- }
-
- .st-li-class:hover{
-     font-weight: bolder;
- }
-
-
-
