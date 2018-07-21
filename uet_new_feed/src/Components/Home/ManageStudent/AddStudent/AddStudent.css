@@ -11,6 +11,17 @@
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
+    -webkit-animation-name: tmp;
+    -moz-animation-name: tmp;
+    -o-animation-name: tmp;
+    animation-name: tmp;
+    animation-duration: 0.5s;
+}
+@keyframes tmp {
+    from{top:-1000px}
+    to{
+        top:0;
+    }
 }
 .add-student .add-student-content{
     top: 5%;

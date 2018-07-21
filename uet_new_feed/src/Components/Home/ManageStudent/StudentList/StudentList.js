@@ -5,15 +5,21 @@ import "./StudentList.css"
 import StudentItem from "./StudentItem/StudentItem";
 
 class StudentList extends React.Component {
-    popupStudentDetail = () => {
+    state = {
+        id:"asdf",
+    }
+    popupStudentDetail = (number) => {
         const tmp = document.getElementsByClassName("popup")[0];
         tmp.style.top = '0';
+        this.setState({
+            id:number,
+        })
     }
 
     render() {
         return (
             <div>
-                <PopupStudent/>
+                <PopupStudent studentId={this.state.id}/>
                 <StudentMenu/>
                 <div className='student-item'>
                     <span className='student-number'>STT</span>

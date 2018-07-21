@@ -48,7 +48,8 @@ class AddStudent extends Component {
                             </li>
                         </ul>
                     </div>
-                    <button onClick={this.finishAdd}>Hoàn tất?</button>
+                    <button onClick={this.finishAdd}>Thêm sinh viên?</button>
+                    <button onClick={this.finishAdd}>Hủy</button>
                 </div>
             </div>
         )

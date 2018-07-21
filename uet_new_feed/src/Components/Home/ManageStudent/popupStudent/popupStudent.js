@@ -16,7 +16,7 @@ class PopupStudent extends Component {
                             <input type="text" placeholder="Ngô Minh Phương" disabled/>
                         </label>
                         <label htmlFor=""><span>Mã sinh viên</span>
-                            <input type="number" placeholder="16021629" disabled/>
+                            <input type="number" placeholder={this.props.studentId.toString()} disabled/>
                         </label>
                         <label htmlFor=""><span>Lớp-Khoa</span>
                             <input type="text" placeholder="K61N" disabled/>

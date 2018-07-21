@@ -1,9 +1,12 @@
 import React from "react";
 import './Event.css';
+import moment from "moment";
 
 export default class Event extends React.Component {
 
     render() {
+        const tmp = new Date(2018,1,9,13,0,0);
+        const day = moment(tmp)._d;
         return (
             <div className='event-container'>
                 <div className="img-event">
@@ -12,7 +15,9 @@ export default class Event extends React.Component {
                 </div>
                 <div className="infor-event">
                     <div className="date-location">
-                        date-location
+                        {day.toLocaleString()}
+                        <br/>
+                        Hanoi
                     </div>
                 </div>
                 <div className="context">
